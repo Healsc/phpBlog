@@ -1,0 +1,40 @@
+.container{
+    margin:0 10%;
+    position: relative;
+}
+#header{
+    background-color: #00CC00;
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    display: flex;
+    padding: 0 10px 0 10px;
+    color: #fff;
+}
+#header .header-name{
+    width: 100px;
+}
+#header .header-mood{
+    flex: 1;
+    text-align: right;
+}
+#nav{
+    margin-top: 10px;
+    padding-left:10px ;
+    position: absolute;
+    left: 0;
+    width: 140px;
+    border-right: 1px solid #ddd;
+}
+
+#nav .nav-title{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Microsoft YaHei UI";
+}
+#nav a{
+    margin: 10px 0 10px 10px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+}
